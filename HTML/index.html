@@ -6,9 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Airwing</title>
     <link rel="stylesheet" href="../CSS/home.css">
+    <style>
+        #navegation>nav>a:nth-child(1) {
+            background-color: white;
+            height: 75px;
+            width: 300px;
+            color: rgb(0, 204, 204);
+            box-shadow: 15px 15px 0 0 rgb(0, 204, 204), 15px 15px 0 1px white;
+        }
+
+        #navegation>nav>a:nth-child(1)>img {
+            filter: invert(58%) sepia(81%) saturate(1123%) hue-rotate(133deg) brightness(95%) contrast(100%);
+        }
+    </style>
     <script>
-        alert("Esta página es el primer de muchos proyectos. Aún se está construyendo. Cualquier feedback será recibido con gusto :3");
-      </script>
+        alert("Esta página es el primer de muchos proyectos. Aún se está construyendo, solo se visualiza bien desde un computador por ahora. Cualquier feedback será recibido con gusto :3");
+    </script>
 </head>
 
 <body>
@@ -23,7 +36,8 @@
                 <!-- Opciones de navegacion -->
                 <a href="home"><img src="../ASSETS/home-logo.png" alt="Home"><span>Home</span></a>
                 <a href="AboutAirwing"><img src="../ASSETS/about-us-logo.png" alt="About Us"><span>About Us</span></a>
-                <a href="ContactUs"><img src="../ASSETS/contact-us-logo.png" alt="Contact Us"><span>Contact Us</span></a>
+                <a href="ContactUs"><img src="../ASSETS/contact-us-logo.png" alt="Contact Us"><span>Contact
+                        Us</span></a>
             </nav>
         </div>
         <div id="social-networks">
@@ -31,9 +45,10 @@
                 <!-- Redes sociales -->
                 <a href="https://www.instagram.com/ser_var_27/" target="_blank"><img src="../ASSETS/instagram-logo.png"
                         alt="Instagram"></a>
-                <a href="https://twitter.com/ser_var_27" target="_blank"><img src="../ASSETS/twitter-logo.png" alt="Twitter"></a>
-                <a href="https://www.linkedin.com/in/sergio-vargas-3584b3201/" target="_blank"><img src="../ASSETS/linkedin-logo.png"
-                        alt="LinkedIn"></a>
+                <a href="https://twitter.com/ser_var_27" target="_blank"><img src="../ASSETS/twitter-logo.png"
+                        alt="Twitter"></a>
+                <a href="https://www.linkedin.com/in/sergio-vargas-3584b3201/" target="_blank"><img
+                        src="../ASSETS/linkedin-logo.png" alt="LinkedIn"></a>
             </nav>
         </div>
         <footer>
@@ -41,8 +56,8 @@
                 <!-- Información adicional -->
                 En esta página encontrarán diferentes proyectos realizados por la empresa
                 en los cuales se muestran diversos diseños. Al seleccionar uno que se adapte
-                 a tus necesidades, puedes dejar la información personal para ser contactado, o directamente
-                 solicitar nuestros servicios.
+                a tus necesidades, puedes dejar la información personal para ser contactado, o directamente
+                solicitar nuestros servicios.
 
             </p>
         </footer>
@@ -58,7 +73,7 @@
         <div>
             <!-- Opcines para pasar de página (next, previous, 1 2 3 4 5) -->
         </div>
-        <footer>
+        <footer id="copyright">
             <!-- Derechos de autor y fecha de última actualziación -->
         </footer>
     </section>
